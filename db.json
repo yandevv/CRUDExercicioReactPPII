@@ -1,0 +1,20 @@
+{
+	"books": [
+		{
+		"id": 1,
+		"title": "Wuthering Heights",
+		"author": "Emily Bronte",
+		"publishYear": "1847",
+		"genre": ["Tragedy, Gothic"],
+		"pagesNumber": 416
+		},
+		{
+		"id": 2,
+		"title": "Pride and Prejudice",
+		"author": "Jane Austen",
+		"publishYear": "1813",
+		"genre": ["Classic Regency novel, Romance novel"],
+		"pagesNumber": 448
+		}
+	]
+}
