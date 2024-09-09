@@ -5,7 +5,7 @@
 		"title": "Wuthering Heights",
 		"author": "Emily Bronte",
 		"publishYear": "1847",
-		"genre": ["Tragedy, Gothic"],
+		"genre": ["Tragedy", "Gothic"],
 		"pagesNumber": 416
 		},
 		{
@@ -13,8 +13,40 @@
 		"title": "Pride and Prejudice",
 		"author": "Jane Austen",
 		"publishYear": "1813",
-		"genre": ["Classic Regency novel, Romance novel"],
+		"genre": ["Classic Regency novel", "Romance novel"],
 		"pagesNumber": 448
+		},
+		{
+		"id": 3,
+		"title": "Nineteen Eighty-Four",
+		"author": "George Orwell",
+		"publishYear": "1949",
+		"genre": ["Dystopian", "Political fiction", "Social science fiction"],
+		"pagesNumber": 328
+		},
+		{
+		"id": 4,
+		"title": "The Little Prince",
+		"author": "Antoine de Saint-Exupéry",
+		"publishYear": "1943",
+		"genre": ["Science fantasy"],
+		"pagesNumber": 140
+		},
+		{
+		"id": 5,
+		"title": "Moby-Dick",
+		"author": "Herman Melville",
+		"publishYear": "1851",
+		"genre": ["Adventure fiction", "Epic", "Sea story", "Encyclopedic novel"],
+		"pagesNumber": 635
+		},
+		{
+		"id": 6,
+		"title": "The Three Musketeers",
+		"author": "Alexandre Dumas",
+		"publishYear": "1844",
+		"genre": ["Historical novel", "Adventure novel", "Swashbuckler"],
+		"pagesNumber": 700
 		}
 	]
 }
