@@ -15,8 +15,7 @@ function LastBooks() {
 
 	async function loadLastBooks() {
 		const response = await getBooks();
-		response.data.sort((bookA: Book, bookB: Book) => bookB.id - bookA.id);
-		setBooks(response.data.slice(0, 5));
+		setBooks(response.data.slice(response.data.length - 5, response.data.length));
 	}
 
 	return (
@@ -25,7 +24,7 @@ function LastBooks() {
 			{books.length === 0 ? (
 				<p>Loading...</p>
 			) : books.map(((book) => (
-				<p>{book.title} - {book.author} ({book.publishYear})</p>
+				<p key={book.id}>{book.title} - {book.author} ({book.publishYear})</p>
 			)))}
 		</div>
 	)
