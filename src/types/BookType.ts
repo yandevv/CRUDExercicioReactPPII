@@ -1,5 +1,5 @@
 type Book = {
-	id: number,
+	id?: number,
 	title: string,
 	author: string,
 	publishYear: number,
